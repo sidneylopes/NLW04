@@ -11,9 +11,9 @@
     .value {
         padding: 10px;
         margin: 5px;
-        background: #8257e6;
+        background: #e23e57;
         color: #fff;
-        border-radius: 6px;
+        border-radius: 100%;
         width: 15px;
         text-align: center;
         text-decoration: none;
@@ -29,19 +29,23 @@
     .answers {
         display: flex;
         justify-content: space-between;
-        width: 350px;
+
+    }
+
+    .level span {
+        font-size: 50px;
     }
 </style>
 <div class="container">
-    <label>Olá <strong>{{name}}</strong>! Tudo bem?</label>
+    <label>Hey <strong>{{name}}</strong>! How's it going?</label>
 
     <h3>{{title}}</h3>
     <br>
     <strong>{{description}}</strong>
 
     <div class="level">
-        <span>Pouco provável</span>
-        <span>Muito provável</span>
+        <span>👍</span>
+        <span>👎</span>
     </div>
 
     <div class="answers">
@@ -60,6 +64,7 @@
     <br>
     <br>
 
-    <strong>Sua opinião é muito importante pra nós</strong>
-    <h3>Equipe | <strong>NLW</strong></h3>
+    <img src="https://media.giphy.com/media/mCRJDo24UvJMA/giphy.gif" alt="this slowpoke moves" width=250 />
+    <strong>Your opinion helps a lot</strong>
+    <h3>Sidney Lopes | <strong>NLW</strong></h3>
 </div>
